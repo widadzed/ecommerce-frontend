@@ -1,0 +1,87 @@
+.heroSection {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.heroImage {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.heroContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.heroContent {
+  z-index: 2;
+}
+
+.topImage {
+  width: 450px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 5px
+}
+
+.bottomImage {
+  width: 450px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.leftImage {
+  margin-right: 0px;
+  height: 450px;
+  width: 300px;
+}
+
+.rightImage {
+  margin-left: 0px;
+  height: 460px;
+  width: 240px;
+  border-radius: 10px;
+}
+
+.shopNow {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0070e8;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.shopNow:hover {
+  background-color: #0056b3;
+}
+h1 , p{
+  color: black;
+}

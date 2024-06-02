@@ -1,0 +1,27 @@
+.arrivalsection{
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  
+
+}
+
+.productlist{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  justify-content: center;
+  margin-top: 20px;
+}
+.grid{
+  text-align: center;
+  padding: 20px;
+}
